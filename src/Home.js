@@ -13,7 +13,7 @@ const HomePage = () => {
                 <Link to='/'>
                   Home
                 </Link>
-                <Link id = 'order-pizza' to='/Pizza'>
+                <Link id = 'order-pizza' to='/pizza'>
                   Order
                 </Link>
             </div>

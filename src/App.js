@@ -7,10 +7,9 @@ const App = () => {
   return (
     <Switch>
       <Route exact path='/' component={Home} />
-      <Route exact path='/Pizza' component={OrderForm} />
+      <Route exact path='/pizza' component={OrderForm} />
     </Switch>
   )
 }
-
 
 export default App;

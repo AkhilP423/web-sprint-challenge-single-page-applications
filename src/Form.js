@@ -135,7 +135,7 @@ function OrderForm () {
          </div>
         <div className='Nav'>
             <Link to='/'>Home</Link>
-            <Link to='/Pizza'>Order</Link>
+            <Link to='/pizza'>Order</Link>
          </div>
         </div>
        </Styling>
