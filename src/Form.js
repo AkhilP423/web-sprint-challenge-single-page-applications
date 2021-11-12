@@ -151,7 +151,7 @@ function OrderForm () {
         <div>   
         <label>
         Name on Order:
-        <input onChange={change} value={form.name} type='text' id ='name-input' name='name' /></label>
+        <input onChange={change} value={form.name} type='text' id ='name-input' name="name" /></label>
         </div>
              
         <div>
@@ -168,22 +168,22 @@ function OrderForm () {
 
         <div>
         <label>Pepperoni:
-        <input onChange={change} checked={form.Pepperoni} name='Pepperoni' type='checkbox' /></label>
+        <input onChange={change} checked={form.Pepperoni} name="Pepperoni" type='checkbox' /></label>
         <label>Ham:
-        <input onChange={change} checked={form.Ham} name='Ham' type='checkbox' /></label>
+        <input onChange={change} checked={form.Ham} name="Ham" type='checkbox' /></label>
         <label>Chicken:
-        <input onChange={change} checked={form.Chicken} name='Chicken' type='checkbox' /></label>
+        <input onChange={change} checked={form.Chicken} name="Chicken" type='checkbox' /></label>
 		<label>Bacon:
-        <input onChange={change} checked={form.Bacon} name='Bacon' type='checkbox' /></label>
+        <input onChange={change} checked={form.Bacon} name="Bacon" type='checkbox' /></label>
 		<label>Sausage:
-        <input onChange={change} checked={form.Sausage} name='Sausage' type='checkbox' /></label>
+        <input onChange={change} checked={form.Sausage} name="Sausage" type='checkbox' /></label>
         <label>Meatballs:
-        <input onChange={change} checked={form.Meatballs} name='Meatballs' type='checkbox' /></label>
+        <input onChange={change} checked={form.Meatballs} name="Meatballs" type='checkbox' /></label>
 		</div>
 
         <div>
         <label>Special Requests:
-        <input onChange={change} value={form.specialRequest} id='special-text' name='specialRequest' type='text' /></label>
+        <input onChange={change} value={form.specialRequest} id='special-text' name="specialRequest" type='text' /></label>
         </div>
         <button id = 'order-button' name='button'>Complete Order!</button>
         </form>
